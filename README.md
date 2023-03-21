@@ -1,6 +1,8 @@
 Bitbucket Terraform Provider
 ==================
 
+This provider is a fork from https://github.com/DrFaust92/terraform-provider-bitbucket
+
 - Website: https://www.terraform.io
 - [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/hashicorp-terraform/Lobby)
 - Mailing list: [Google Groups](http://groups.google.com/group/terraform-tool)
@@ -37,7 +39,7 @@ Using the provider
 terraform {
   required_providers {
     bitbucket = {
-      source  = "DrFaust92/bitbucket"
+      source  = "idealista/bitbucket"
       version = "version-here"
     }
   }
